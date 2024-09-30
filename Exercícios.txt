@@ -1,0 +1,46 @@
+#Exercícios Avançado
+#1
+A = 10
+B = 20
+print(A, "Valor da variável A")
+print(B, "Valor da variável B")
+A = 20
+B = 10
+print(A, "Valor da variável A")
+print(B, "Valor da variável B")
+#2
+#3
+#Apenas a opção A produz o mesmo resultado
+#5
+A = int(input())
+print(A - 1)
+#6
+print("Digite a Altura e Base de um retângulo")
+A = int(input())
+print("Agora digite a Base")
+B = int(input())
+print("Área do retângulo é", A * B)
+#7
+I = int(input("Qual sua idade? "))
+M = int(input("Qual sua meses? "))
+D = int(input("Qual seus dias? "))
+if M<=12:
+    mes_F=M*30
+    ano_F=I*365
+    print(ano_F + mes_F)
+#8
+E = int(input("Qual foi a quantidade de eleitores no município? "))
+B = int(input("Qual foi a quantidade votos em brancos? "))
+N = int(input("Qual foi a quantidade votos nulos? "))
+V = int(input("Qual foi a quantidade votos válidos? ")) 
+if E:
+    P_B = (B / E) * 100
+    P_N = (N / E) * 100
+    P_V = (V / E) * 100
+    print(P_B,"% votos em branco")
+    print(P_N,"% votos nulos")
+    print(P_V,"% votos válidos")
+#9
+S_a = int(input("digite seu salário atual "))
+print("Esse será seu salário com reajuste", S_a + (2000 / 100) )
+#10
